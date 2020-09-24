@@ -42,3 +42,8 @@ input[type="color"]:focus,
 .results-block{
   display: inline-block;
 }
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #138496;
+  border-color: #117a8b;
+}
