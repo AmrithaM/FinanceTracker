@@ -17,7 +17,8 @@ input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
-.uneditable-input:focus {
+.uneditable-input:focus,
+.search-button-border {
   border-color: rgba(23,162,184, 0.8);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(23,162,184, 0.6);
   outline: 0 none;
@@ -41,9 +42,18 @@ input[type="color"]:focus,
 
 .results-block{
   display: inline-block;
+  margin-bottom: 1rem;
 }
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
   background-color: #138496;
   border-color: #117a8b;
+}
+
+.logout-button{
+  margin-right: 5px;
+}
+
+ .navbar-brand{
+  color: #138496 !important;
 }
