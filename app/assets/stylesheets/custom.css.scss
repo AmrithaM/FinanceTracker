@@ -58,11 +58,11 @@ input[type="color"]:focus,
   color: #138496 !important;
 }
 
-.delete_stock{
+.delete_stock, .stop_following{
   color: #343a40!important;
 }
 
-.delete_stock:hover{
+.delete_stock:hover, .stop_following:hover{
   color: #dc3545!important;
 }
 
