@@ -45,9 +45,9 @@ input[type="color"]:focus,
   margin-bottom: 1rem;
 }
 
-.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-  background-color: #138496;
-  border-color: #117a8b;
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th, .follow-friend-btn:hover {
+  background-color: #138496 !important;
+  border-color: #117a8b !important;
 }
 
 .logout-button{
@@ -77,4 +77,8 @@ input[type="color"]:focus,
 
 .nav-item:not(.active) a{
   color: #6c757d!important;
+}
+
+.follow-friend-btn{
+  color: white !important;
 }
