@@ -15,7 +15,7 @@
               <%= fa_icon 'user' %> View Profile
             <% end %>&nbsp;
             <% if current_user.not_friends_with?(friend.id) %>
-              <%= link_to '#', class: 'btn btn-dark follow-friend-btn', method: :post do %>
+              <%= link_to friendships_path(friend: friend), class: 'btn btn-dark follow-friend-btn', method: :post do %>
                 <%= fa_icon 'user-plus' %> Follow friend?
               <% end %>
             <% else %>
