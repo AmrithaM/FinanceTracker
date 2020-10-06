@@ -58,12 +58,16 @@ input[type="color"]:focus,
   color: #138496 !important;
 }
 
-.delete_stock, .stop_following{
+.delete_stock, .stop-following, .friend-profile{
   color: #343a40!important;
 }
 
-.delete_stock:hover, .stop_following:hover{
+.delete_stock:hover, .stop-following:hover{
   color: #dc3545!important;
+}
+
+.friend-profile:hover{
+  color: #28a745!important;
 }
 
 .user-name{
@@ -79,6 +83,19 @@ input[type="color"]:focus,
   color: #6c757d!important;
 }
 
-.follow-friend-btn, .btn-outline-info:hover{
+.follow-friend-btn, .btn-outline-info:hover, a.btn-info{
   color: white !important;
+}
+
+.friends-badge{
+  margin-bottom: 20% !important;
+}
+
+.friend-actions{
+  margin: 0 0.5rem;
+}
+
+.btn-outline-info, .btn-outline-info:hover {
+    background-color: white !important;
+    color: #6c757d !important;
 }

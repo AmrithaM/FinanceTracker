@@ -16,8 +16,11 @@
             <td><%= friend.first_name %></td>
             <td><%= friend.last_name %></td>
             <td class="d-flex justify-content-center">
+              <%= link_to user_path(friend) do %>
+                <%= fa_icon 'user 2x', class: "friend-profile friend-actions" %>
+              <% end %> &nbsp;
               <%= link_to friendship_path(friend), method: :delete, data: {confirm: 'Are you sure?'} do %>
-                <%= fa_icon 'user-times 2x', class: "stop_following" %>
+                <%= fa_icon 'user-times 2x', class: "stop-following friend-actions" %>
               <% end %>
             </td>
           </tr>

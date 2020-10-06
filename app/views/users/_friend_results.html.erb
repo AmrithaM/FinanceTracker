@@ -11,7 +11,7 @@
           <td><strong>Name: </strong><%= friend.full_name %></td>
           <td><strong>Email: </strong><%= friend.email %></td>
           <td>&nbsp;
-            <%= link_to "#", class: "btn btn-outline-info" do %>
+            <%= link_to user_path(friend), class: "btn btn-outline-info" do %>
               <%= fa_icon 'user' %> View Profile
             <% end %>&nbsp;
             <% if current_user.not_friends_with?(friend.id) %>
